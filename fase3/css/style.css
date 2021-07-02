@@ -1,0 +1,128 @@
+body{
+    margin: 0px 60px 0px 60px;
+    font-family:sans-serif;
+}
+main{
+    padding: 40px;
+}
+#index{
+    display: flex;
+    flex-direction: row;
+    height:max-content;
+    min-height: 600px;
+}
+aside{
+    height: 500px; overflow-y:scroll;
+    position: relative;
+    width: 20;
+    float: right;
+}
+footer{
+    border-top:#333;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 25px;
+    bottom: 0;
+    color:rgb(0, 88, 132);
+    font-size:12px;
+
+}
+
+
+  aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+  }
+
+  ul#menu {
+    background: #333;
+    width: 75%;
+    float:right;
+    padding: 5px;
+    top:0px
+    
+   }
+     
+   ul#menu li {
+    padding: 10px;
+    color: #fff;
+    float: left;
+    list-style: none;
+    
+   }
+   ul#menu li a{
+    text-decoration: none;
+    
+    color: #fff;
+    float: left;
+    list-style: none;
+    
+   } 
+   ul#menu li:hover{
+    background-color: #111;
+    cursor:pointer;
+   }
+     
+   ul#menu ul {
+    display: none;
+    position: absolute;
+    top: 50px;
+    background: #333;
+    color: #fff;
+    padding: 5px 0px 5px 5px;
+    margin: 0;
+    }
+     
+   ul#menu ul li{
+    float: left;
+    color: #fff;
+    width:100%;
+    
+   }
+    
+    
+   ul#menu ul li a{
+    color: #fff;
+   }
+     
+   ul#menu ul li a:hover{
+    color: #fff;
+    cursor:pointer;
+    width: 100%;
+   }
+     
+   ul#menu li:hover ul ul,ul#menu li:hover ul ul ul,ul#menu li.iehover ul ul,ul#menu li.iehover ul ul ul {
+    display: none;
+    cursor:pointer;
+   }
+     
+   ul#menu li:hover ul,ul#menu ul li:hover ul,ul#menu ul ul li:hover ul,ul#menu li.iehover ul,ul#menu ul li.iehover ul,ul#menu ul ul li.iehover ul {
+    display: block;
+    cursor:pointer;
+   }
+
+   .bar{
+       
+       background-color: #333;
+       width: 100%;
+       padding: 20px;
+   }
+   .bar h1{
+       color:#fff;
+       margin: 0;
+   }
+
+   span.referencia{
+       text-align: left;
+       color: silver;
+       font-style: italic;
+   }

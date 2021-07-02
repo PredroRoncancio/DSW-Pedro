@@ -1,0 +1,28 @@
+header{
+    background-color: gray;
+}
+nav{
+    background-color: green;
+    color: white;
+}
+section{
+    float: left;
+    width: 70%;
+    background-color: rgb(64, 80, 64);
+    color: white;
+}
+aside{
+    float: left;
+    width: 30%;
+    background-color:red;
+    color: white;
+}
+footer{
+    background-color:blue;
+    color: white;
+}
+.contenedor::after{
+    content: "";
+    display: block;
+    clear: both;
+}
